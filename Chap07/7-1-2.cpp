@@ -18,8 +18,8 @@ public:
 		delete[] name;
 	}
 	void ShowMyFriendInfo() {
-		cout << "ÀÌ¸§: " << name << endl;
-		cout << "³ªÀÌ: " << age << endl;
+		cout << "Ã€ÃŒÂ¸Â§: " << name << endl;
+		cout << "Â³ÂªÃ€ÃŒ: " << age << endl;
 	}
 };
 
@@ -44,8 +44,8 @@ public:
 	}
 	void ShowMyFriendDetailInfo() {
 		ShowMyFriendInfo();
-		cout << "ÁÖ¼Ò: " << addr << endl;
-		cerr << "ÀüÈ­: " << phone << endl << endl;
+		cout << "ÃÃ–Â¼Ã’: " << addr << endl;
+		cerr << "Ã€Ã¼ÃˆÂ­: " << phone << endl << endl;
 	}
 };
 
