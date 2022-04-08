@@ -45,9 +45,9 @@ public:
 		cout << "Destructor of HybridWaterCar" << endl;
 	}
 	void ShowCurrentGauge() {
-		cout << "ÀÜ¿© °¡¼Ö¸°: " << GetGasGauge() << endl;
-		cout << "ÀÜ¿© Àü±â·®: " << GetElecGauge() << endl;
-		cout << "ÀÜ¿© ¿öÅÍ·®: " << waterGauge << endl;
+		cout << "ì”ì—¬ ê°€ì†”ë¦°: " << GetGasGauge() << endl;
+		cout << "ì”ì—¬ ì „ê¸°ëŸ‰: " << GetElecGauge() << endl;
+		cout << "ì”ì—¬ ì›Œí„°ëŸ‰: " << waterGauge << endl;
 	}
 };
 
